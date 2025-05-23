@@ -1,0 +1,25 @@
+{
+  "last_updated": "2025-05-23T08:04:26.873241",
+  "symbols": {
+    "BTC": {
+      "1m": {
+        "start_date": "2025-05-20T00:00:00",
+        "end_date": "2025-05-23T00:00:00",
+        "last_updated": "2025-05-23T08:04:26.872000",
+        "quality": {
+          "total_rows": 4476,
+          "unique_days": 4,
+          "first_timestamp": 1747737000000,
+          "last_timestamp": 1748005500000,
+          "avg_close": 108847.55487488853,
+          "std_close": 2286.6824719208403,
+          "min_close": 104197.92,
+          "max_close": 111924.08,
+          "total_volume": 108320.34634499968,
+          "null_closes": 0,
+          "zero_volume_rows": 0
+        }
+      }
+    }
+  }
+}
