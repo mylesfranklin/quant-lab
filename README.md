@@ -1,8 +1,8 @@
-# QuantLab - High-Performance Backtesting Framework
+QuantLab - High-Performance Backtesting Framework
 
 A production-ready quantitative trading framework featuring intelligent factor caching, vectorized operations, and multi-strategy optimization.
 
-## 🚀 Features
+Features
 
 - **Factor Caching System**: DuckDB-powered caching with automatic invalidation and fingerprinting
 - **Vectorized Backtesting**: High-performance backtesting with VectorBT
@@ -10,7 +10,7 @@ A production-ready quantitative trading framework featuring intelligent factor c
 - **CLI Interface**: Command-line tools for data fetching, backtesting, and analysis
 - **Edge Case Handling**: Robust handling of partial windows, data gaps, and type mismatches
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 quant-lab/
@@ -39,7 +39,7 @@ quant-lab/
 └── cli.py                   # Command-line interface
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -58,7 +58,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 📊 Quick Start
+## Quick Start
 
 ### 1. Fetch Market Data
 ```bash
@@ -87,7 +87,7 @@ python cli.py backtest --strategy MA_Cross --fast 10 --slow 30
 python cli.py analyze --input results/metrics_vectorized.json
 ```
 
-## 🧪 Factor Caching System
+## Factor Caching System
 
 The framework includes an intelligent caching system that dramatically improves performance:
 
@@ -109,7 +109,7 @@ info = fs.factor_info("rsi_14")
 print(f"Cached factor: {info['rows']} rows, fingerprint: {info['fingerprint']}")
 ```
 
-## 📈 Strategy Development
+## Strategy Development
 
 ### Creating a New Strategy
 
@@ -145,7 +145,7 @@ python batch_backtest_vectorized.py --out results/batch_results.json
 python analyze_results_unified.py
 ```
 
-## 🔧 Advanced Features
+## Advanced Features
 
 ### Edge Case Handling
 - Automatic handling of partial candles in live data
@@ -168,13 +168,13 @@ python benchmark_comparison.py
 python analyze_results.py --format html --output results/report.html
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [FACTOR_CACHING_IMPLEMENTATION.md](FACTOR_CACHING_IMPLEMENTATION.md) - Detailed caching system docs
 - [EDGE_CASE_SOLUTIONS.md](EDGE_CASE_SOLUTIONS.md) - Edge case handling guide
 - [CLAUDE.md](CLAUDE.md) - AI assistant context and guidelines
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -187,7 +187,7 @@ python test_factor_caching.py
 python test_edge_cases.py
 ```
 
-## 📈 Performance Benchmarks
+## Performance Benchmarks
 
 With factor caching enabled:
 - 10x speedup for repeated backtests
@@ -195,7 +195,7 @@ With factor caching enabled:
 - Support for 1000+ parameter combinations
 - Sub-second indicator calculations
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -203,25 +203,17 @@ With factor caching enabled:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - VectorBT for the amazing backtesting framework
 - DuckDB for the high-performance database
 - TA-Lib for technical indicators
 - The quantitative trading community
 
-## 🚀 Roadmap
+## Roadmap
 
-- [ ] Real-time trading integration
-- [ ] Advanced portfolio optimization
-- [ ] Machine learning strategy generation
-- [ ] Web-based dashboard
-- [ ] Cloud deployment support
-
----
-
-Built with ❤️ by Myles Franklin
+Apply to new industries
